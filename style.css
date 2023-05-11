@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 460px;
+    width: 220px;
+    background-color: #160505b9;
+    box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.622);
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.outerContainer {
+    height: 190px;
+    width: 190px;
+    background-color: #879191;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.innerContainer {
+    height: 170px;
+    width: 170px;
+    background-color: #b3d6d6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+
+}
+
+#countDown {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+label {
+    display: block;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 20px 0 20px 0;
+}
+
+.section2 {
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: sans-serif;
+    color: #fff;
+    border-top: 2px dotted #fff;
+    border-bottom: 2px dotted #fff;
+}
+
+.section3 {
+    padding: 20px 0 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+
+#startPause,
+#reset {
+    height: 30px;
+    width: 60px;
+    background-color: rgb(37, 34, 34);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+}
+
+#reset {
+    margin: 0 0 0 20px;
+}
+#sIncrease,
+#sDecrease,
+#bIncrease,
+#bDecrease{
+    background-color: rgb(37, 34, 34);
+    border: none;
+    color: white;
+    width: 30px;
+    border-radius: 3px;
+    margin: 10px 0 0 0;
+}
+#sIncrease,#bIncrease{
+    margin:0 0 0 6px;
+}
+#sessionTime,#breakTime{
+   margin: 0 0 0 17px;
+}
+#sessionTime{
+    color:#009288;
+}
+#breakTime{
+    color:#dd501d;
+}
